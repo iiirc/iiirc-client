@@ -22,8 +22,7 @@ $ brunch watch --server # launch HTTP server and compile
 
 ### Phantomjs
 
-* [PhantomJS](https://github.com/jonleighton/poltergeist#installing-phantomjs)
-* **must use PhantomJS 1.9.1 or higher.**
+* Install [PhantomJS](https://github.com/jonleighton/poltergeist#installing-phantomjs). **!!!must use PhantomJS 1.9.1 or higher.!!!**
 
 ## Running tests
 
