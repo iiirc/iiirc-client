@@ -27,3 +27,10 @@ This is HTML5 application, built with
 $ npm install -g mocha-phantomjs
 $ mocha-phantomjs public/test/index.html
 ```
+
+## Misc
+
+```
+$ npm install -g mocha-phantomjs
+$ gem install terminal-notifier # only for Mac user
+```

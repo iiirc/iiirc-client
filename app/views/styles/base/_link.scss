@@ -1,0 +1,9 @@
+@import "font";
+
+@mixin link {
+  @include font(link);
+
+  &:hover {
+	  @include font(link);
+  }
+}
