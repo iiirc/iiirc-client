@@ -4,15 +4,19 @@ This is HTML5 application, built with
 [Brunch](http://brunch.io) and
 [Chaplin](http://chaplinjs.org).
 
+## Status
+
+Under development. :neckbeard:
+
 ## Getting started
 
-* Install [Brunch](http://brunch.io): `npm install -g brunch`.
-* Install Brunch plugins: `npm install`.
-* Watch the project with continuous rebuild by
-`brunch watch --server`. This will also launch HTTP server.
-* Build the minified project with `brunch build --optimize`.
-* Open the `public/` dir to see the result.
-* Write your code in `app` dir, put scripts in `vendor` dir.
+```
+$ npm install -g brunch # Install Brunch
+$ git clone git://github.com/iiirc/iiirc-client.git
+$ cd iiirc-client
+$ npm install # Install Brunch plugins: `
+$ brunch watch --server # launch HTTP server and compile
+```
 
 ## Dependencies
 
