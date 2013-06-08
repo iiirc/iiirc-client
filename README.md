@@ -38,6 +38,5 @@ $ mocha-phantomjs public/test/index.html
 ## Misc
 
 ```
-$ npm install -g mocha-phantomjs
-$ gem install terminal-notifier # only for Mac user
+$ gem install terminal-notifier # only for Mac user, also if you want.
 ```
