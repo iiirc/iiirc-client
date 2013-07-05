@@ -1,0 +1,1 @@
+brunch: brunch watch --server
