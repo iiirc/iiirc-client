@@ -1,5 +1,5 @@
-SidebarSubscribeView = require 'views/sidebar-subscribe-view'
+SidebarSubscriptionsView = require 'views/sidebar-subscriptions-view'
 
-describe 'SidebarSubscribeView', ->
+describe 'SidebarSubscriptionsView', ->
   beforeEach ->
-    @view = new SidebarSubscribeView()
+    @view = new SidebarSubscriptionsView()

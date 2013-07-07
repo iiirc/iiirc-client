@@ -1,7 +1,7 @@
 View                     = require 'views/base/view'
 template                 = require 'views/templates/sidebar'
 SidebarOrganizationsView = require 'views/sidebar-organizations-view'
-SidebarSubscribeView     = require 'views/sidebar-subscribe-view'
+SidebarSubscriptionsView = require 'views/sidebar-subscriptions-view'
 
 module.exports = class SidebarView extends View
   template: template
@@ -11,8 +11,8 @@ module.exports = class SidebarView extends View
   region: 'sidebar'
   regions:
     '#sidebar-organizations-container' : 'sidebar-organizations'
-    '#sidebar-subscribe-container'     : 'sidebar-subscribe'
+    '#sidebar-subscriptions-container' : 'sidebar-subscriptions'
   render: ->
     super
     (new SidebarOrganizationsView).render()
-    (new SidebarSubscribeView).render()
+    (new SidebarSubscriptionsView).render()
