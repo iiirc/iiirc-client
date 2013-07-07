@@ -9,5 +9,6 @@ module.exports = class HomeController extends Controller
 
     organizations.fetch
       success: =>
-        _.each organizations.models, (org) => @view = new OrganizationView model: org
+        _.each organizations.models, (organization) =>
+          @view = new OrganizationView model: organization
       error: => console.log "fetch failed"

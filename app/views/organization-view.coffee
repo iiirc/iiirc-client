@@ -1,4 +1,4 @@
-View = require 'views/base/view'
+View     = require 'views/base/view'
 template = require 'views/templates/organization'
 
 module.exports = class OrganizationView extends View
