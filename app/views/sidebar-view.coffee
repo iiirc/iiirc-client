@@ -6,6 +6,8 @@ SidebarSubscribeView     = require 'views/sidebar-subscribe-view'
 module.exports = class SidebarView extends View
   template: template
   autoRender: true
+  tagName: 'nav'
+  id: 'navigations'
   region: 'sidebar'
   regions:
     '#sidebar-organizations-container' : 'sidebar-organizations'

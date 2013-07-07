@@ -5,6 +5,7 @@ Organizations    = require 'models/organizations'
 
 module.exports = class SidebarOrganizationsView extends View
   className: 'navigation'
+  id: 'organizations'
   region: 'sidebar-organizations'
   regions: '#organization-list' : 'organization'
   template: template
