@@ -9,6 +9,5 @@ module.exports = class SiteView extends View
     '#header-container'  : 'header'
     '#page-container'    : 'main'
     '#sidebar-container' : 'sidebar'
-    '#organization-list' : 'organization'
     '#footer-container'  : 'footer'
   template: template
