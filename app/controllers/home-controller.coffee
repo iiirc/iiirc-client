@@ -5,4 +5,4 @@ SidebarView  = require 'views/sidebar-view'
 module.exports = class HomeController extends Controller
   index: ->
     @view = new HomePageView
-    @subview 'sidebar', SidebarView
+    @subview 'sidebar', new SidebarView
