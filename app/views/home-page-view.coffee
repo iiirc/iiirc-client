@@ -3,5 +3,5 @@ BasePageView = require 'views/base/page-view'
 
 module.exports = class HomePageView extends BasePageView
   autoRender: true
-  className: 'home-page'
+  id: 'content'
   template: template
