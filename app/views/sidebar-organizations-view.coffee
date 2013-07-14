@@ -1,9 +1,9 @@
-View             = require 'views/base/view'
+BasePageView     = require 'views/base/page-view'
 template         = require 'views/templates/sidebar-organizations'
 OrganizationView = require 'views/organization-view'
 Organizations    = require 'models/organizations'
 
-module.exports = class SidebarOrganizationsView extends View
+module.exports = class SidebarOrganizationsView extends BasePageView
   className: 'navigation'
   id: 'organizations'
   region: 'sidebar-organizations'

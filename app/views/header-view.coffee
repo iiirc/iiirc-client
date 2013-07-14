@@ -1,7 +1,7 @@
-View     = require 'views/base/view'
-template = require 'views/templates/header'
+BasePageView = require 'views/base/page-view'
+template     = require 'views/templates/header'
 
-module.exports = class HeaderView extends View
+module.exports = class HeaderView extends BasePageView
   autoRender: true
   className: 'header'
   region: 'header'

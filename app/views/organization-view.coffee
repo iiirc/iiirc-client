@@ -1,7 +1,7 @@
-View     = require 'views/base/view'
-template = require 'views/templates/organization'
+BasePageView = require 'views/base/page-view'
+template     = require 'views/templates/organization'
 
-module.exports = class OrganizationView extends View
+module.exports = class OrganizationView extends BasePageView
   tagName: 'li'
   autoRender: true
   className: 'link'
