@@ -8,6 +8,5 @@ module.exports = class SiteView extends View
   regions:
     '#header-container'  : 'header'
     '#content-container' : 'main'
-    '#sidebar-container' : 'sidebar'
     '#footer-container'  : 'footer'
   template: template
